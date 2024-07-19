@@ -4,9 +4,17 @@
 :root {
     overflow-x: hidden;
   }
-   body{ background-color:#131313;}
+
+
+   body
+   { background-color:#141414;}
+
+
+.navblack {
+  color: #141414;
+}
   nav {
-    color: #131313;
+    color: #141414;
     .navbar-brand {
       img {
         width: 100px;
@@ -28,6 +36,20 @@
       }
     }
   }
+  footer {
+    @media screen and (min-width: 1024px) {
+      width: 80vw;
+      margin-inline: auto;
+    }
+  
+    @media screen and (min-width: 1440px) {
+      width: 50vw;
+    }
+    .icons {
+      font-size: 30px;
+    }
+  }
+  
   footer {
     margin-top: 7rem;
     .icons {
