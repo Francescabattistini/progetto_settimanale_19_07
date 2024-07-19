@@ -37,6 +37,7 @@
       }
     }
   }
+  
   footer {
     @media screen and (min-width: 1024px) {
       width: 80vw;
@@ -108,7 +109,7 @@
 
     &:hover {
 
-      background-color: white;
+      background-color: rgb(244, 244, 244);
       color: black;
     }
   }
