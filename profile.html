@@ -12,9 +12,9 @@
     />
     <title>Edit Profile</title>
   </head>
-  <body data-bs-theme="dark">
+  <body class="bdark">
     <header>
-      <nav class="navbar navbar-expand-md bg-body-invisible mb-3">
+      <nav class="navbar navbar-expand-md mb-3">
         <div class="container">
           <a class="navbar-brand" href="index.html"
             ><img src="assets/netflix_logo.png" alt="netflix-logo"
@@ -27,7 +27,9 @@
         <div
           class="row border-bottom pb-4 mb-5 align-items-start justify-content-center justify-content-lg-start"
         >
-          <h1 class="col-12 text-center text-lg-start border-bottom pb-2 mb-4">
+          <h1
+            class="col-12 text-white text-center text-lg-start border-bottom pb-2 mb-4"
+          >
             Edit Profile
           </h1>
           <div class="col-8 col-lg-3 position-relative mb-4">
@@ -45,7 +47,9 @@
                 placeholder="Strive Student"
                 class="name-input p-2 mb-4 bg-secondary"
               />
-              <label for="lang" class="mb-2 text-secondary h5">Language:</label>
+              <label for="lang" class="mb-2 text-secondary text-white h5"
+                >Language:</label
+              >
               <div class="dropdown me-auto pb-4 mb-4 border-bottom" id="lang">
                 <button
                   class="btn btn-outline-light py-1 px-4 dropdown-toggle rounded-0"
@@ -63,7 +67,7 @@
                   <li><a class="dropdown-item" href="#">French</a></li>
                 </ul>
               </div>
-              <label for="maturity" class="text-secondary h5 mb-3"
+              <label for="maturity" class="text-white h5 mb-3"
                 >Maturity Settings:</label
               >
               <div class="dropdown mb-2" id="maturity">
@@ -76,7 +80,7 @@
                   ALL MATURITY RATINGS
                 </button>
               </div>
-              <p class="fs-6">
+              <p class="fs-6 text-white">
                 Show titles of all maturiry ratings for this profile
               </p>
               <div class="border-bottom pb-4 mb-4">
@@ -87,7 +91,7 @@
                   EDIT
                 </button>
               </div>
-              <label for="controls" class="text-secondary h5"
+              <label for="controls" class="text-white h5"
                 >Autoplay controls</label
               >
               <div class="form-check">
@@ -99,7 +103,7 @@
                   id="contorl-1"
                   checked
                 />
-                <label class="form-check-label" for="control-1">
+                <label class="form-check-label text-white" for="control-1">
                   Autoplay next episode in a series on all devices.
                 </label>
               </div>
@@ -112,7 +116,7 @@
                   id="control-2"
                   checked
                 />
-                <label class="form-check-label" for="control-2">
+                <label class="form-check-label text-white" for="control-2">
                   Autoplay previews while browsing on all devices.
                 </label>
               </div>
