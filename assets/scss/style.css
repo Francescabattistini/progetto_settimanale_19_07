@@ -99,7 +99,7 @@ footer .icons {
   cursor: pointer;
 }
 
-.btn-outline-secondary:hover {
+.btnhover:hover {
   background-color: rgb(244, 244, 244);
   color: black;
 }
